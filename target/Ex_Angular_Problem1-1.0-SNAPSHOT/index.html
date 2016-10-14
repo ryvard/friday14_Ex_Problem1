@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="vendor/angular.js"></script>
+        <script src="vendor/angular-route.js"></script>
+        <script src="myJSfile.js"></script>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        
+        <a href="#/">Person list</a>
+        <a href="#/newperson">New person</a>
+        
+        <div ng-view=""></div>
+        
+    </body>
+</html>
